@@ -1,0 +1,4 @@
+# Virtual environment
+env3/
+# Compiled Python files
+*.pyc
