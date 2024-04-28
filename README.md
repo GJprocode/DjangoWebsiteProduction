@@ -7,13 +7,13 @@
 
 #### 2.1 Docs\build\index.html (access Document here in index.html, instal sphinx and install  sphinx_rtd_theme) Have a look at the conf.py file. Docstrings to describe every class, definition etc. will be an heavy task. For now you can see the layout of how django project was built. Some dockstrings added. 
 #### There are some inline comments, without cluttering code. 
-#### Will add some more docstrings when I find it useful. I suggest you watch Django tutotials how setting.py, static files,
+#### Will add some more docstrings when I find it useful. I suggest you watch Django tuttials how setting.py, static files,
 #### models.py, forms.py, views.py & urls.py are linked and all run through manage.py. And research Models of how Django is setup. 
 ### to read sphinx documentation install below
 #### choco install sphinx
 #### pip install -U sphinx
 #### py -m pip install sphinx-rtd-theme
-## Sphinx theme may not work, it may use alabaster theme as deafault because the theme is unsupported with new version of Sphinx
+## Sphinx theme may not work, it may use alabaster theme as deafault because the theme is unsupported with new version of Sphinx.
 
 ### 3. Installation (Below is using powershell terminal, command prompt differs a little bit)
 
@@ -35,14 +35,14 @@
 #### py manage.py runserver (ctrl click on url, a window will open in your default browzer, sign up and play with app, ctrl c to break local server connection )
 #### you will see below
 
-![running app terminal](https://github.com/CrypticDG/DjangoCareerShiftersWebsite/assets/132646907/5aa0975d-6ec8-4426-a6c5-819105134120)
+![screenshot](runserver.png)
 
 #### run 'deactivate' in terminal when done, this deactivates your virtual environment
 #### and you can further alter program as you wish. 
 
 ### 4. Preview of the app
 
-![careershiftforum pic](https://github.com/CrypticDG/DjangoCareerShiftersWebsite/assets/132646907/038ac022-8ea7-4767-b11e-18a2cdb71107)
+![screenshot](app.png)
 
 ### 5. Docker (Containerzing apps) If you want to so its the same on every device. (Have Docker Hub and Docker desktop installed)
 ### link to hub.docker.com remote repository. https://hub.docker.com/repository/docker/crypticdg/careershiftersforum/general
