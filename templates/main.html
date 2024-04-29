@@ -6,9 +6,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- Favicon for all pages -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
     <link rel="stylesheet" href="{% static 'styles/style.css' %}" />
-    <title>CareerShifters - Find resource near you!</title>
+    <title>{% block title %}CareerShifters - Find resource near you!{% endblock %}</title>
 </head>
 
 <body>
