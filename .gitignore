@@ -1,5 +1,5 @@
 # Virtual environment
-env/
+myenv2/
 # Compiled Python files
 *.pyc
 
