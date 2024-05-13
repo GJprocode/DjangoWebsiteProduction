@@ -19,7 +19,7 @@
 
 ### Also note the below is for Windows OS; commands may differ slightly for Linux and macOS. 
 #### 3.1 Clone the repository with the command below. Must have Git & GitHub installed. 
-#### git clone https://https://github.com/GJprocode/DjangoWebsiteProduction
+#### git clone //https://github.com/GJprocode/DjangoWebsiteProduction
 #### 3.2 Move to the project root folder
 #### cd name of root folder
 #### 3.3 Create a virtual environment
